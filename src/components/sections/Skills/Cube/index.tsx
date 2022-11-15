@@ -16,7 +16,7 @@ const Cube = () => {
         gsap.to(".dragger__container", {
             rotate:0,
             y:0,
-            x:"5vw",
+            x:0,
             duration: 5,
             scrollTrigger: {
                 trigger: cube.current,

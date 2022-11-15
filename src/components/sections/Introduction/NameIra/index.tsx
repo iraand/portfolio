@@ -3,7 +3,7 @@ import { useLayoutEffect, useRef } from 'react'
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 
-//const MorphSVGPlugin = require ('../../../../utils/MorphSVGPlugin.min.js')
+const MorphSVGPlugin = require ('../../../../utils/MorphSVGPlugin.min.js')
 const DURATION = 0.5;
 
 const NameIra = () => {
@@ -34,9 +34,9 @@ const NameIra = () => {
             }
         }); 
         gsap.to(refConteiner.current, {
-            rotate:30,
+            rotate:20,
             opacity:0,
-            scale:2,
+            scale:1.5,
             duration: 1,
             scrollTrigger: {
                 trigger: refConteiner.current,
@@ -53,7 +53,7 @@ const NameIra = () => {
 
     useLayoutEffect(() => {
 
-        //gsap.registerPlugin(MorphSVGPlugin);
+        gsap.registerPlugin(MorphSVGPlugin);
 
         gsap.to(refSvg.current, { scale: 2.7, duration: 3.9, delay: 3, opacity: 0.3, yPercent:-8 });
 

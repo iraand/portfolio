@@ -32,7 +32,7 @@ const Sites = () => {
             animation: timeline2,
             toggleActions: "play none none reverse", 
             trigger: container.current,
-            pin: true,
+            //pin: true,
             start: "top top",
         })
 
@@ -50,11 +50,11 @@ const Sites = () => {
     return (
         <section className="sites__section"> 
             <div className="sites__wrapper" ref={container}> 
-                <p className='works__title'>Web sites / Landing&nbsp;pages</p> 
+                <p className='works__title'>Web sites, Landing&nbsp;pages</p> 
                 <p className='stack'>
-                    <FontAwesomeIcon icon={faCheck} className="icon-check"/>&nbsp;HTML
-                    <FontAwesomeIcon icon={faCheck} className="icon-check"/>&nbsp;CSS 
-                    <FontAwesomeIcon icon={faCheck} className="icon-check"/>&nbsp;Wordpress    
+                    <FontAwesomeIcon icon={faCheck} className="icon-check"/>&#65279;HTML
+                    <FontAwesomeIcon icon={faCheck} className="icon-check"/>&#65279;CSS 
+                    <FontAwesomeIcon icon={faCheck} className="icon-check"/>&#65279;Wordpress    
                 </p>                              
                 <div className='sites'  ref={sites}>                  
                     <img className='site site1' src={LP} alt="site"/>

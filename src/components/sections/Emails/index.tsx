@@ -32,7 +32,7 @@ const Emails = () => {
             animation: timeline2,
             toggleActions: "play none none reverse", 
             trigger: container.current,
-            pin: true,
+            //pin: true,
             start: "top top",
             //scrub: true
         })
@@ -53,8 +53,8 @@ const Emails = () => {
             <div className="email__wrapper" ref={container}> 
                 <p className='works__title'>Email Tamplates</p>  
                 <p className='stack'>
-                    <FontAwesomeIcon icon={faCheck} className="icon-check"/> HTML
-                    <FontAwesomeIcon icon={faCheck} className="icon-check"/> CSS  
+                    <FontAwesomeIcon icon={faCheck} className="icon-check"/>HTML
+                    <FontAwesomeIcon icon={faCheck} className="icon-check"/>CSS  
                 </p> 
                 <div className='emails' ref={emails}>           
                     <a href="http://demo.mediamenu.ee/reachad/2018-03_hummingbird/html/" target="_blank" rel="noreferrer">

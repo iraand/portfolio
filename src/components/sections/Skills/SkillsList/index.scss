@@ -1,14 +1,20 @@
 @import '../../../../styles/variables.scss';
 @import '../../../../styles/fonts.scss';
+@import '../../../../styles/media.scss';
 
 .skills__list {
-    font-size: 2rem;
-    line-height: 3.5rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
     pointer-events: none;
+    margin-right: 0;
+
+    @include  desktopExtraSmall  {
+        font-size: 2rem;
+        line-height: 3.5rem;
+        margin-right: 10rem;
+    }    
 }
-.skills__title{
-    margin-left: 1.8rem;
-}
+
 .skills__item svg {
     color: $green;
     margin-right: 7px;

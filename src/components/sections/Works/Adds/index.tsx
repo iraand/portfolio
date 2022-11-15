@@ -28,7 +28,7 @@ const Adds = () => {
     useLayoutEffect(() => {
         const images = document.querySelector('.works__image-desktop');
         const demoLinks = document.querySelector('.works__demos');
-        const close = document.querySelector('.icon-close');
+        const close = document.querySelector('.button__close');
        
         images?.addEventListener('click', (event) => {
             gsap.to(demoLinks, { opacity:1, yPercent:0 })    
@@ -166,14 +166,14 @@ const Adds = () => {
         <div className='works__container' ref={container}> 
             <p className='works__title'>Impactful Rich Media Ads</p> 
                 <p className='stack'>
-                    <FontAwesomeIcon icon={faCheck} className="icon-check"/> JS (JQuary)
-                    <FontAwesomeIcon icon={faCheck} className="icon-check"/> GSAP
-                    <FontAwesomeIcon icon={faCheck} className="icon-check"/> HTML
-                    <FontAwesomeIcon icon={faCheck} className="icon-check"/> CSS    
+                    <FontAwesomeIcon icon={faCheck} className="icon-check"/>&#65279;JS (JQuary)
+                    <FontAwesomeIcon icon={faCheck} className="icon-check"/>&#65279;GSAP
+                    <FontAwesomeIcon icon={faCheck} className="icon-check"/>&#65279;HTML
+                    <FontAwesomeIcon icon={faCheck} className="icon-check"/>&#65279;CSS    
                 </p>             
             
             <div className='images__container' ref={images}>             
-                <img className="works__image works__image-desktop" src={Desktop} alt='Rich Media Ads'/>
+                <img className="works__image works__image-desktop" src={Desktop} alt='Rich Media&nbsp;Ads'/>
                 <img className="works__image works__image-demo" src={Desktop1} data-value={'img' + 1}  alt='Rich Media Ads'/>
                 <img className="works__image works__image-demo" src={Desktop2} data-value={'img' + 2}  alt='Rich Media Ads'/>
                 <img className="works__image works__image-demo" src={Desktop3} data-value={'img' + 3}  alt='Rich Media Ads'/> 
@@ -215,7 +215,7 @@ const Adds = () => {
                         <a href="https://insk.in/68f10m" target="_blank" rel="noreferrer">Desktop</a>
                         <a href="https://insk.in/tyi29y" target="_blank" rel="noreferrer">Smartphone</a>
                     </div>
-                    <FontAwesomeIcon icon={faClose} className="icon-close"/>                    
+                    <div className='button__close'><FontAwesomeIcon icon={faClose} className="icon__close"/></div>                    
                 </div> 
             </div>
         </div>

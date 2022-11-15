@@ -37,8 +37,8 @@ const Banners = () => {
             animation: timeline2,
             toggleActions: "play none none reverse", 
             trigger: container.current,
-            pin: true,
-            start: "top top",
+            //pin: true,
+            start: "top top"
         })
 
 
@@ -55,11 +55,11 @@ const Banners = () => {
     return (
         <section className="banners__section"> 
             <div className="banners__wrapper" ref={container}> 
-                <p className='banners__title'>Ads Banners</p> 
+                <p className='works__title'>Ads Banners</p> 
                 <p className='stack'>
-                    <FontAwesomeIcon icon={faCheck} className="icon-check"/> GSAP
-                    <FontAwesomeIcon icon={faCheck} className="icon-check"/> HTML
-                    <FontAwesomeIcon icon={faCheck} className="icon-check"/> CSS  
+                    <FontAwesomeIcon icon={faCheck} className="icon-check"/>GSAP
+                    <FontAwesomeIcon icon={faCheck} className="icon-check"/>HTML
+                    <FontAwesomeIcon icon={faCheck} className="icon-check"/>CSS  
                 </p> 
                 
                 
