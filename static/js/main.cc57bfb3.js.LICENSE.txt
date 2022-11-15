@@ -25,9 +25,10 @@
 
 /*!
  * MorphSVGPlugin 3.8.0
- 
+ * https://greensock.com
  *
  * @license Copyright 2021, GreenSock. All rights reserved.
+ *
  * @author: Jack Doyle, jack@greensock.com
  */
 
