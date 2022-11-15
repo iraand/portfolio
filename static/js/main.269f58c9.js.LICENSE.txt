@@ -9,6 +9,18 @@
  */
 
 /*!
+ * DrawSVGPlugin 3.10.4
+ * https://greensock.com
+ *
+ * @license Copyright 2022, GreenSock. All rights reserved.
+ * *** DO NOT DEPLOY THIS FILE ***
+ * This is a trial version that only works locally and on domains like codepen.io and codesandbox.io.
+ * Loading it on an unauthorized domain violates the license and will cause a redirect.
+ * Get the unrestricted file by joining Club GreenSock at https://greensock.com/club
+ * @author: Jack Doyle, jack@greensock.com
+ */
+
+/*!
  * GSAP 3.11.3
  * https://greensock.com
  *
@@ -17,15 +29,6 @@
  * Club GreenSock members, the agreement issued with that membership.
  * @author: Jack Doyle, jack@greensock.com
 */
-
-/*!
- * MorphSVGPlugin 3.8.0
- * https://greensock.com
- *
- * @license Copyright 2021, GreenSock. All rights reserved.
- * Subject to the terms at https://greensock.com/standard-license or for Club GreenSock members, the agreement issued with that membership.
- * @author: Jack Doyle, jack@greensock.com
- */
 
 /*!
  * Observer 3.11.3
