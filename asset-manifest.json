@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1e2eb084.css",
-    "main.js": "/portfolio/static/js/main.b623030b.js",
+    "main.css": "/portfolio/static/css/main.587243cc.css",
+    "main.js": "/portfolio/static/js/main.07646310.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/lp1.png": "/portfolio/static/media/lp1.0712b70a361f4332d772.png",
     "static/media/desktop3.png": "/portfolio/static/media/desktop3.3ef45d78c4f5768965d7.png",
@@ -30,12 +30,12 @@
     "static/media/banner3.png": "/portfolio/static/media/banner3.94ee6d2ef75fd0c0b87f.png",
     "static/media/LaBelleDemoVersion.woff2": "/portfolio/static/media/LaBelleDemoVersion.1ee22320df180914dc58.woff2",
     "index.html": "/portfolio/index.html",
-    "main.1e2eb084.css.map": "/portfolio/static/css/main.1e2eb084.css.map",
-    "main.b623030b.js.map": "/portfolio/static/js/main.b623030b.js.map",
+    "main.587243cc.css.map": "/portfolio/static/css/main.587243cc.css.map",
+    "main.07646310.js.map": "/portfolio/static/js/main.07646310.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e2eb084.css",
-    "static/js/main.b623030b.js"
+    "static/css/main.587243cc.css",
+    "static/js/main.07646310.js"
   ]
 }
