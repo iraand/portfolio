@@ -1,0 +1,61 @@
+@import '../../../styles/variables.scss';
+
+.footer {
+  background-color: $grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+form {
+  max-width:400px;
+  width:80%;
+  height:auto;
+  font-size: 0.9rem;
+  color:$darkGrey;
+}
+input,
+textarea {
+  width:100%;
+  display: block;
+  padding:1rem;
+  margin: 10px 0;  
+  border-radius: 4px;
+  outline: none;
+  
+  &:focus{
+    outline: 1px solid $green;
+  }
+
+}
+textarea{
+  height: 170px;
+}
+.sendButton {
+  font-size: 1.2rem;
+  border-radius: 7px;
+  background-color: $black;
+  padding: 1rem;
+  cursor: pointer;
+  color: white;
+  animation: fadeIn 1s 0s;
+
+  &:hover {
+    background-color: $green;
+    color: $black;
+    animation: fadeIn 1s 0s;
+    box-shadow: -1px 20px 13px -18px rgba(0,0,0,0.56);
+    -webkit-box-shadow: -1px 20px 13px -18px rgba(0,0,0,0.56);
+    -moz-box-shadow: -1px 20px 13px -18px rgba(0,0,0,0.56);
+    }    
+}
+.contact {
+  color: $black
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+textarea:focus::placeholder {
+  color: transparent;
+}

@@ -1,0 +1,53 @@
+@import '../../../styles/variables.scss';
+@import '../../../styles/media.scss';
+
+
+.email__section {
+    background-color: $black!important;
+    border-radius: 0; 
+}
+.email__wrapper {
+    background-color: $darkGrey;
+    border-radius: 7% 7% 0 0;
+    width:100%;
+    height:100%;
+
+    @include desktopSmall {
+        border-radius: 10% 10% 0 0;
+    }    
+}
+
+.emails {
+    width:100%;
+    height:100%;
+    display: flex;
+    // transform: rotate(-7deg);
+    flex-direction: column;
+
+    @include  desktopSmall  {
+        flex-direction: row;
+        justify-content: center;
+    } 
+}
+.email{
+    height:40%;
+    width:auto;
+    margin: 0 auto;
+    display: block;
+    padding: 0 1rem;
+
+    @include  desktopSmall  {
+        height:70%;
+    }
+}
+.email2 {
+    opacity:0;
+
+    @include  desktopSmall  {
+        opacity:1;
+    }
+}
+// .emails a:hover {
+// 	animation-fill-mode: both;
+// 	animation: bounce 1s;
+// }

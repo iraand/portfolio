@@ -1,0 +1,145 @@
+@import '../../../../styles/variables.scss';
+@import '../../../../styles/media.scss';
+
+.works__container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.works__title {
+    padding: 4.5rem 3rem 1rem;
+}
+p {
+    text-align: center;
+}
+.images__container {
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content:center;
+    align-items: top;
+    position: relative;
+    pointer-events: none;
+
+    @include  desktopExtraSmall  {
+      
+    }    
+}
+.works__image {  
+    width: 80%;
+    height:auto;
+    display: block;
+    position: absolute;
+    max-width: 1000px;
+    pointer-events: none;  
+    margin-top: 2rem;
+
+    @include  desktopExtraSmall  {
+        width: 67%;
+        margin-top: 0;
+    }    
+    
+    @include  desktopSmall  {
+        width: 56%;
+        margin-top: 0;
+    }    
+}
+.works__image-demo{
+    opacity:0;
+}
+.works__image-demo:nth-child(2) {
+    opacity:1;
+}
+.works__image-desktop {
+    opacity:1;
+    pointer-events: all;
+    cursor: pointer;
+}
+
+.works__demos {
+    background: $lightGrey;
+    width:63%;
+    height:25%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 1rem;   
+    pointer-events: none;
+    opacity:0;
+    bottom: 10%;
+
+        @include  tablet  {
+            width:45%;
+            height:30%;
+            bottom: 8%;
+        }
+
+        @include  desktopExtraSmall  {
+            width:30%;
+            height:30%;
+            bottom: auto;
+        } 
+
+    a {
+        font-size: 1.2rem;
+        font-weight: 400;
+        padding: 10px 10px;
+        text-decoration: underline;
+        cursor: pointer;
+
+        &:hover {
+            color: $green;
+        }
+    }
+
+    p {
+        font-size: 1.6rem;
+        line-height: 1.2rem;
+    }
+}
+.demos__links__conteiner{
+    display: flex;
+    justify-content: center;
+    pointer-events: none;
+    
+    .demos__links{
+        position: absolute;
+        pointer-events: none;
+        opacity:0;
+    }
+}
+.ads{
+    color: $grey;
+    font-style: italic;
+    font-size: 1.1rem;
+    font-weight: 400;
+    display: block;
+    margin: 1.5rem;
+}
+.activeImage {
+    animation: fadeIn 0.7s 0s forwards;
+}
+.activeLinks {
+    display: block!important;
+    animation: fadeIn 0.7s 0s forwards;
+    pointer-events: all!important;
+}
+.icon-close {
+    position: absolute;
+    right:2rem;
+    top:2rem;
+    width:1.2rem;
+    height:1.2rem;
+    cursor: pointer;
+    pointer-events: all;
+
+    &:hover {
+        transform: scale(0.9);
+    }
+}

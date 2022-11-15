@@ -1,0 +1,21 @@
+@import '../../../../styles/variables.scss';
+@import '../../../../styles/global.scss';
+@import '../../../../styles/media.scss';
+
+.letters-conteiner{
+	width: 100vw;
+	height: 100vh;
+	opacity: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top:0;
+	
+	 svg {
+		width: 250px;
+	}
+}
+.letter--opacity{
+	opacity:0;
+}

@@ -1,0 +1,70 @@
+@import '../../../styles/variables.scss';
+@import '../../../styles/media.scss';
+
+.banners__section {
+    background-color: $darkGrey!important;
+    border-radius: 0;
+}
+.banners__wrapper {
+    background-color: $black;
+    border-radius: 7% 7% 0 0;
+    width:100%;
+    height:100vh;
+
+    @include desktopSmall {
+        border-radius: 10% 10% 0 0;
+    }    
+}
+.banners__title{
+    padding-top: 4rem;
+}
+.banners__section{
+    background: $black;
+}
+.banners {
+    width: 60%;
+    height: 60%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    flex-direction: column;
+    transform: rotate(-7deg);
+   
+    @include  desktopSmall  {
+        flex-direction: row;
+        width: 70%;
+        height: 70%;
+    }     
+
+}
+.banner {
+    height:auto;
+    width: 100%;
+    display: block;
+    padding: 0 1rem;
+    pointer-events: none;
+    margin-top: 2rem;
+}
+a.demo__link {
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 400;
+    margin: 0 auto;
+    display: block;
+    text-decoration: underline;
+    cursor: pointer;
+
+    &:hover {
+        color: $green;
+    }
+}
+.icon-check {
+    color: $green;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+// .demo__link:hover {
+// 	animation-fill-mode: both;
+// 	animation: bounce 1s;
+// }

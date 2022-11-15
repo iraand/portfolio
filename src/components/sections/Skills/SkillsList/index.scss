@@ -1,0 +1,18 @@
+@import '../../../../styles/variables.scss';
+@import '../../../../styles/fonts.scss';
+
+.skills__list {
+    font-size: 2rem;
+    line-height: 3.5rem;
+    pointer-events: none;
+}
+.skills__title{
+    margin-left: 1.8rem;
+}
+.skills__item svg {
+    color: $green;
+    margin-right: 7px;
+    width: 1.3rem;
+    opacity:1;
+    
+}

@@ -1,0 +1,26 @@
+@import '../../../../styles/variables.scss';
+@import '../../../../styles/media.scss';
+
+.works__word {
+  width:100%;
+  height: 100vh;
+  position: absolute;
+  top:0;
+  left:0;
+  pointer-events: none;
+  // transform: translateY(-50%);
+
+    svg {
+      position: absolute;
+      bottom:0;
+      left:0;
+      width: 100%;
+      height: auto;	
+
+      @include  desktopSmall  {
+        width:57%;
+      }
+
+    }  
+
+}

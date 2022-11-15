@@ -1,0 +1,107 @@
+@import 'media.scss';
+@import 'fonts.scss';
+@import 'variables.scss';
+
+
+// body,
+// html {
+//   overflow-x: hidden;
+// }
+
+body {
+  font-family: 300 11px/1.4 $RalewayRegular;
+  font-size: 62.5%;
+  line-height: 20px;
+  font-weight: 500;
+  color: $white;
+  background-color: $black;
+
+  // @include tablet {
+  //   font-size: 24px;
+  //   line-height: 24px;
+  // }
+
+  // @include desktopSmall {
+  //   font-size: 34px;
+  //   line-height: 34px;
+  // }
+
+  // @include  desktop {
+  //   font-size: 40px;
+  //   line-height: 40px;
+  // }
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+}
+h1{
+  font-size: 5rem;
+  font-weight: bolder;
+}
+p {
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+}
+.stack{
+  font-size: 1.2rem;
+  line-height: 2.5rem; 
+  margin-bottom: 1rem;
+  display: block;
+  margin-left: -1rem;
+}
+section {
+  width:100vw;
+  height: 100vh;
+  color: white;
+  overflow: hidden;
+  border-radius: 7% 7% 0 0;
+
+  @include desktopSmall {
+    border-radius: 10% 10% 0 0;
+  }
+
+}
+.letter{
+	fill: none;
+  stroke: $green;
+	stroke-width: 0.2;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(31, 30, 30);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $green;
+  border-radius: 10px;
+  height:10px;
+}

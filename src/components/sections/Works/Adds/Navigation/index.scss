@@ -1,0 +1,45 @@
+@import '../../../../../styles/variables.scss';
+@import '../../../../../styles/fonts.scss';
+@import '../../../../../styles/media.scss';
+
+
+.navigation {
+    position: absolute;
+    width: 47px;
+    height:100%;
+    left:10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5rem;
+    flex-direction: column;
+    pointer-events: all;
+
+    @include  desktopExtraSmall  {
+        left:16.5vw;
+    }    
+    
+    @include  desktopSmall  {
+        width: 22vw;
+    }    
+    
+    .nav {
+        width: 15px;
+        height:15px;
+        margin: 7px;
+        background-color: white;
+        border-radius: 50%;
+        pointer-events: all;      
+
+        &:hover {
+            cursor: pointer;
+            background-color: $green;
+        }
+
+        &.activeNav {
+            cursor:default;
+            background-color: $green;
+            pointer-events: none;           
+        }
+    }
+}
