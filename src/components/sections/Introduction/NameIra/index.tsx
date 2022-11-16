@@ -2,8 +2,8 @@ import './index.scss'
 import { useLayoutEffect, useRef } from 'react'
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
+import gsap from "gsap/MorphSVGPlugin";
 
-const MorphSVGPlugin = require ('../../../../utils/MorphSVGPlugin.min.js')
 const DURATION = 0.5;
 
 const NameIra = () => {
