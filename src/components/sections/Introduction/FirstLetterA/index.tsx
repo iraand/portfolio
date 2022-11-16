@@ -1,8 +1,7 @@
 import './index.scss'
 import { useLayoutEffect, useRef } from 'react'
 import gsap from "gsap";
-const DrawSVGPlugin = require ('../../../../utils/DrawSVGPlugin.min.js')
-
+import gsap from "gsap/DrawSVGPlugin";
 
 const FirstLetterA = () => {
   const refConteiner = useRef<HTMLHeadingElement>(null)
