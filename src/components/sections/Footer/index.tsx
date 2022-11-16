@@ -9,9 +9,9 @@ const Footer = () => {
         emailjs
             .sendForm(
                 'gmail',
-                'template_lomq1wl',
+                '',
                 form.current,
-                '26TRpCewuXxfVBp8T'
+                ''
             )
             .then(
                 () => {
